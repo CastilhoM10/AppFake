@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #191919;
+    margin: 0;
+}
+
+.config-container {
+    background-color: #111;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .config-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .config-container h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .config-container label {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .config-container select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #191919;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 6px;
+    color: white;
+    border: none;
+    font-size: 14px;
+  }
+  
+  .icons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .icons-grid img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .icons-grid img:hover {
+    transform: scale(1.05);
+  }
+  
+  .config-container a {
+    margin-top: 30px;
+    background-color: #005a71;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 80%;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
